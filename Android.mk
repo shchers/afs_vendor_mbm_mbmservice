@@ -7,8 +7,7 @@ LOCAL_SRC_FILES := $(call all-subdir-java-files)
 
 LOCAL_PACKAGE_NAME := MbmService
 
-#LOCAL_JAVA_LIBRARIES := javax.obex
-#LOCAL_STATIC_JAVA_LIBRARIES := com.android.vcard
+LOCAL_JAVA_LIBRARIES := android.policy telephony-common
 
 LOCAL_CERTIFICATE := platform
 
